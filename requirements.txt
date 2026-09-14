@@ -1,0 +1,31 @@
+# Resume batch parser / JD scorer -- dependencies
+# ---------------------------------------------------------------------------
+# REQUIRED (the pipeline will not run without these two)
+pymupdf>=1.24                 # PDF text layer + page rendering for OCR
+httpx>=0.27                   # async client for the local Ollama server
+
+# REQUIRED FOR SCANNED PDFS -- which is every file in this batch.
+# rapidocr-onnxruntime is the default backend: pure pip, no system packages,
+# works on Windows/macOS/Linux out of the box.
+rapidocr-onnxruntime>=1.3
+
+# RECOMMENDED
+psutil>=5.9                   # auto-tunes OCR workers + render size to your RAM
+
+# ---------------------------------------------------------------------------
+# OPTIONAL ALTERNATIVES -- only if you want to swap the OCR engine.
+# The backends are tried in this order and the first one that imports wins,
+# so installing these is never required:
+#   ("rapidocr", "tesseract", "paddleocr")
+#
+# pytesseract>=0.3.10          # ALSO needs the system binary:
+#                              #   Debian/Ubuntu: sudo apt install tesseract-ocr
+#                              #   macOS:         brew install tesseract
+#                              #   Windows:       UB Mannheim tesseract installer
+# paddleocr>=2.7               # heaviest install, best on very messy scans
+#
+# NOT needed: no PDF-to-text CLI (pdftotext/poppler) and no other PDF library
+# is required -- pymupdf covers both the text layer and the OCR rendering.
+#
+# The LLM is not a pip package. Install Ollama, then:
+#   ollama pull qwen2.5-coder:7b

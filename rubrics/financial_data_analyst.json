@@ -1,0 +1,129 @@
+{
+  "title": "Financial Data Analyst (Quantitative Analytics)",
+  "experience_target_years": 3,
+  "education_relevant_fields": [
+    "quant finance", "finance", "economics", "statistics",
+    "mathematics", "computer science", "data/analytics", "engineering"
+  ],
+  "categories": [
+    {
+      "name": "Statistical & Quantitative Methods",
+      "weight": 20,
+      "must_have": true,
+      "skills": [
+        {"name": "Time Series", "aliases": ["time series", "timeseries", "time-series", "ARIMA", "SARIMA", "ARMA", "GARCH", "ARCH", "cointegration", "stationarity", "autocorrelation", "ACF", "PACF", "seasonality"]},
+        {"name": "Risk Metrics", "aliases": ["VaR", "value at risk", "expected shortfall", "CVaR", "stress test", "stress testing", "Sharpe ratio", "Sharpe", "Sortino", "drawdown", "volatility model", "risk metric", "beta"]},
+        {"name": "Regression", "aliases": ["linear regression", "logistic regression", "multivariate", "OLS", "GLM", "regression analysis", "regression model", "least squares"]},
+        {"name": "Probability & Inference", "aliases": ["probability", "hypothesis testing", "statistical inference", "Bayesian", "Monte Carlo", "distribution", "skewness", "kurtosis", "correlation", "confidence interval", "p-value"]},
+        {"name": "Forecasting & Backtesting", "aliases": ["forecasting", "forecast", "predictive model", "predictive modeling", "backtest", "backtesting", "out-of-sample", "walk forward"]},
+        {"name": "Quant Modeling", "aliases": ["quantitative model", "quantitative analysis", "quantitative research", "stochastic", "econometrics", "optimization", "portfolio optimization", "mean variance", "financial model"]},
+        {"name": "Portfolio & Risk Mgmt", "aliases": ["portfolio", "asset allocation", "risk management", "performance attribution", "modern portfolio theory", "efficient frontier", "factor model", "Fama French"]}
+      ]
+    },
+    {
+      "name": "Core Programming (Python/R)",
+      "weight": 18,
+      "must_have": true,
+      "skills": [
+        {"name": "Python", "aliases": ["Python", "python3", "CPython"]},
+        {"name": "R", "aliases": ["R programming", "R language", "RStudio", "R studio", "tidyverse", "CRAN"]},
+        {"name": "pandas", "aliases": ["pandas", "DataFrame"]},
+        {"name": "NumPy", "aliases": ["NumPy", "numpy array"]},
+        {"name": "SciPy", "aliases": ["SciPy"]},
+        {"name": "statsmodels", "aliases": ["statsmodels", "statsmodel"]},
+        {"name": "Viz/ML libs", "aliases": ["matplotlib", "seaborn", "plotly", "scikit-learn", "scikit learn", "sklearn", "xgboost", "Jupyter", "notebook"]},
+        {"name": "Programming practice", "aliases": ["programming", "scripting", "coding", "software development", "object oriented", "unit test", "debugging"]}
+      ]
+    },
+    {
+      "name": "SQL & Data Engineering",
+      "weight": 14,
+      "must_have": true,
+      "skills": [
+        {"name": "SQL", "aliases": ["SQL", "T-SQL", "TSQL", "PL/SQL", "PLSQL", "PostgreSQL", "Postgres", "MySQL", "SQL Server", "SQLite", "Oracle SQL"]},
+        {"name": "Advanced SQL", "aliases": ["window function", "CTE", "common table expression", "recursive CTE", "indexing", "index", "query optimization", "query performance", "stored procedure", "PARTITION BY", "ROW_NUMBER", "RANK()", "query tuning", "execution plan"]},
+        {"name": "ETL / Pipelines", "aliases": ["ETL", "ELT", "data pipeline", "pipeline", "data ingestion", "data cleaning", "data cleansing", "data normalization", "data transformation", "Airflow", "dbt"]},
+        {"name": "Warehousing", "aliases": ["data warehouse", "data warehouse", "data modeling", "dimensional model", "star schema", "relational database", "database design", "NoSQL", "MongoDB", "Redshift"]}
+      ]
+    },
+    {
+      "name": "Financial Domain Knowledge",
+      "weight": 18,
+      "must_have": true,
+      "skills": [
+        {"name": "Valuation", "aliases": ["DCF", "discounted cash flow", "valuation", "multiples", "comparable company", "comps", "WACC", "net present value", "NPV", "IRR", "terminal value"]},
+        {"name": "Corporate Finance", "aliases": ["corporate finance", "financial statement", "balance sheet", "income statement", "cash flow statement", "financial analysis", "financial reporting", "budgeting", "financial planning"]},
+        {"name": "Capital Markets", "aliases": ["capital markets", "equity", "equities", "stock", "shares", "trading", "asset management", "investment banking", "securities", "IPO"]},
+        {"name": "Derivatives & Fixed Income", "aliases": ["derivatives", "fixed income", "bonds", "options", "futures", "swaps", "forward", "coupon", "yield curve", "duration", "convexity", "treasury"]},
+        {"name": "Risk & Credit", "aliases": ["credit risk", "market risk", "counterparty", "underwriting", "credit analysis", "default probability", "exposure"]},
+        {"name": "Accounting", "aliases": ["accounting", "GAAP", "IFRS", "ledger", "reconciliation", "accounts payable", "accounts receivable", "bookkeeping", "audit"]}
+      ]
+    },
+    {
+      "name": "Advanced Excel & Financial Modeling",
+      "weight": 8,
+      "must_have": false,
+      "skills": [
+        {"name": "Excel", "aliases": ["Excel", "MS Excel", "Microsoft Excel", "spreadsheet"]},
+        {"name": "Power Query", "aliases": ["Power Query", "PowerQuery", "Power Pivot", "Get & Transform"]},
+        {"name": "VBA / Macros", "aliases": ["VBA", "Visual Basic", "macro", "macros", "VBA macro"]},
+        {"name": "Financial Modeling", "aliases": ["financial modeling", "financial model", "scenario analysis", "sensitivity analysis", "what-if", "three statement model"]},
+        {"name": "Pivot Tables", "aliases": ["pivot table", "pivot table", "pivottable", "pivot"]},
+        {"name": "Advanced Formulas", "aliases": ["VLOOKUP", "XLOOKUP", "INDEX MATCH", "index/match", "array formula", "dynamic array", "solver"]}
+      ]
+    },
+    {
+      "name": "BI & Dashboards",
+      "weight": 6,
+      "must_have": false,
+      "skills": [
+        {"name": "Power BI", "aliases": ["Power BI", "PowerBI", "Power-BI", "DAX", "Power Query"]},
+        {"name": "Tableau", "aliases": ["Tableau"]},
+        {"name": "Dash / Streamlit", "aliases": ["Dash", "Streamlit", "Plotly Dash", "Shiny", "Gradio"]},
+        {"name": "Other BI", "aliases": ["Looker", "Qlik", "Metabase", "Superset", "Grafana", "business intelligence", "dashboard", "KPI", "reporting"]}
+      ]
+    },
+    {
+      "name": "Machine Learning & Factor Modeling",
+      "weight": 5,
+      "must_have": false,
+      "skills": [
+        {"name": "ML Algorithms", "aliases": ["machine learning", "random forest", "decision tree", "gradient boosting", "XGBoost", "classification", "clustering", "k-means", "kmeans", "SVM", "neural network", "regression tree"]},
+        {"name": "Factor Modeling", "aliases": ["factor model", "factor investing", "Fama French", "alpha factor", "risk factor", "factor exposure"]},
+        {"name": "ML Practice", "aliases": ["feature engineering", "hyperparameter", "cross validation", "model validation", "overfitting", "train test split", "AUC", "ROC"]}
+      ]
+    },
+    {
+      "name": "Cloud & Engineering Practice",
+      "weight": 4,
+      "must_have": false,
+      "skills": [
+        {"name": "Cloud Warehouse", "aliases": ["Snowflake", "BigQuery", "Redshift", "Databricks", "Synapse", "Athena"]},
+        {"name": "Cloud Platform", "aliases": ["AWS", "Azure", "GCP", "Google Cloud", "S3", "EC2", "Lambda"]},
+        {"name": "Version Control", "aliases": ["Git", "GitHub", "GitLab", "version control", "Bitbucket"]},
+        {"name": "APIs & Scraping", "aliases": ["REST API", "RESTful", "API", "JSON", "web scraping", "scraping", "BeautifulSoup", "requests"]}
+      ]
+    },
+    {
+      "name": "Professional Credentials",
+      "weight": 4,
+      "must_have": false,
+      "skills": [
+        {"name": "CFA", "aliases": ["CFA", "Chartered Financial Analyst", "CFA Level I", "CFA Level II", "CFA Level III"]},
+        {"name": "FRM", "aliases": ["FRM", "Financial Risk Manager"]},
+        {"name": "Other Finance Certs", "aliases": ["CPA", "CMA", "ACCA", "CFP", "Chartered Accountant", "CA Inter", "NISM", "CFP"]}
+      ]
+    },
+    {
+      "name": "Market Data & Terminals",
+      "weight": 3,
+      "must_have": false,
+      "skills": [
+        {"name": "Bloomberg", "aliases": ["Bloomberg", "B-PIPE", "BPIPE", "Bloomberg Terminal"]},
+        {"name": "FactSet / Refinitiv", "aliases": ["FactSet", "Refinitiv", "Thomson Reuters", "Eikon", "Capital IQ", "Morningstar"]},
+        {"name": "Quandl / Nasdaq", "aliases": ["Quandl", "Nasdaq Data Link", "Yahoo Finance", "Alpha Vantage"]},
+        {"name": "Market Data Feeds", "aliases": ["market data", "tick data", "order book", "real-time data", "price feed", "historical data", "level 2"]}
+      ]
+    }
+  ]
+}
