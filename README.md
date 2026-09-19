@@ -275,7 +275,7 @@ Measured ONNX peak per OCR worker: **0.67 GB @1100px, 0.85 GB @1300px,
 For the warm case (the common one — you *want* `keep_alive=-1`), use:
 
 ```bash
-python main.py run --pdf-dir uploads --jd jd.txt --top 10 --concurrency 2 --ocr-workers 2
+python main.py run --pdf-dir uploads --jd jd.txt --top 10 --concurrency 1 --ocr-workers 2
 ```
 
 `main.py` prints a preflight RAM report and warns you before starting a batch
