@@ -333,3 +333,5 @@ python main.py run --pdf-dir uploads --host http://127.0.0.1:11555 --concurrency
 
 This exercises the whole async path (batching, JSON parsing, retries,
 blending) with a stub that invents plausible scores.
+-------------------------------------------------------------------------------------------------
+author - bhanu pratap singh
